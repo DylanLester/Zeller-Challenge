@@ -1,0 +1,21 @@
+{
+  "name": "zeller-backend-ts-coding-challenge",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "ts-node src/main",
+    "test": "jest",
+    "test:examples": "jest src/index.test.ts",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^27.5.1",
+    "@types/jest-in-case": "^1.0.5",
+    "jest": "^28.1.0",
+    "jest-in-case": "^1.0.2",
+    "ts-jest": "^28.0.3",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
